@@ -1,0 +1,420 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-section{
+    position: fixed;
+    float: left;
+    width: 315px;
+    border: 1px solid rgb(221, 221, 221);
+    height: 100%;
+    border-top: none;
+}
+
+.brand-image{
+    width: 38px;
+    height: 38px;
+    margin-left: 60px;
+    margin-top: 4px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 7px;
+}
+.brand-image:hover{
+    background-color: rgba(121, 213, 255, 0.171);
+}
+.nav-category{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    line-height: 20px;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 60px;
+    margin-top: 1.3rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .8rem;
+    width: fit-content;
+    padding: 15px;
+    height: 25px;
+    border-radius: 50px;
+}
+.nav-icon:hover{
+    background-color: rgb(226, 226, 226);
+}
+.tweet-button{
+    background-color: rgb(0, 162, 255);
+    width: 190px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 12px;
+}
+.tweet-button:hover{
+    background-color: rgb(0, 144, 228);
+}
+.profile-area{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 3rem;
+    margin-left: 40px;
+    align-items: center;
+    margin-top: 100px;
+    height: 25px;
+    width: 220px;
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.profile-image{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+.user-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-image > img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.profile-area:hover{
+    background-color: rgb(226, 226, 226);
+}
+.right-area{
+    float: right;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    width: 440px;
+    height: 100%;  
+    margin-top: 4px; 
+}
+.input-area{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    margin-right: 40px;
+
+}
+.input-text{
+    width: 300px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: rgba(220, 220, 255, 0.493);
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: 1rem;
+}
+.magnify{
+    background-color: rgba(220, 220, 255, 0.493);
+    padding: 15px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: none;
+
+}
+.election-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+}
+.election-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: .4rem;
+    width: 230px;
+}
+.top-text{
+    color: rgb(65, 65, 65);
+    font-size: .8rem;
+}
+
+.trending-area{
+    background-color: rgba(220, 220, 255, 0.493);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+    margin-top: 10px;
+    width: 340px;
+    margin-left: 30px;
+    border-radius: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.trending-area>span{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 17px;
+}
+.trnding1{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    width: 305px;
+    padding: 17px;
+}
+
+.trnding1:hover{
+    background-color: rgba(220, 220, 255, 0.664);
+
+}
+
+.Center-area{
+    margin-left: 317px;
+    border-right: 1px solid rgb(221, 221, 221);
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.profile-area-right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 6rem;
+    align-items: center;
+    width: 220px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.user-name1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+}
+.show-more{
+    color: rgb(0, 153, 255);
+}
+.home{
+    width: 557px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 17px;
+    font-size: 1.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.top-tweet{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+    cursor: pointer;
+}
+.top-tweet:hover{
+    background-color: rgba(220, 220, 255, 0.664);
+    transition: .3s;
+}
+.textbox-input{
+    width: 80%;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    color: rgb(82, 82, 82);
+}
+.post-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 9px;
+}
+.profile-center{
+    border-radius: 50%;
+    background-color: #777;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.reply_option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(0, 153, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 80px;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    cursor: pointer;
+}
+.media_option{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 7rem;
+}
+.tweet_btn{
+    background-color: rgb(148, 216, 255);
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 20px;
+    width: 60px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+}
+.select_media{
+    border-radius: 50%;
+    padding: 8px;
+    width: 23px;
+    cursor: pointer;
+}
+.select_media:hover{
+    background-color: rgba(121, 213, 255, 0.171);
+    transition: .3s;
+}
+.post_item{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 1rem;
+    height: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+.post_item:hover{
+    background-color: rgb(241, 241, 241);
+}
+.post_text{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: .3rem;
+}
+.post_image{
+    border-radius: 12px;
+    margin-top: 15px;
+}
+.brand_name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .3rem;
+    font-size: 1.1rem;
+}
+.commlike{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+.commlike>a{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.commlike>a:nth-child(n)>img{
+    padding: 7px;
+    border-radius: 50%;
+}
+.commlike>a:nth-child(1)>img:hover{
+    background-color: rgba(86, 197, 248, 0.171);
+    transition: .3s;
+}
+.commlike>a:nth-child(2)>img:hover{
+    background-color: rgba(77, 255, 53, 0.171);
+    transition: .3s;
+}
+.commlike>a:nth-child(3)>img:hover{
+    background-color: rgba(255, 52, 52, 0.171);
+    transition: .3s;
+}
+.post_text:nth-child(2){
+    font-size: .9rem;
+}
+.chat_box{
+    display: none;
+    position: fixed;
+    background-color: white;
+    height: 500px;
+    width: 390px;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 30px;
+    box-shadow: 0px 0px 10px rgb(172, 172, 172);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 17px;
+}
+.chat_box_minimize{
+    position: fixed;
+    background-color: white;
+    height: 60px;
+    width: 390px;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 30px;
+    box-shadow: 0px 0px 10px rgb(172, 172, 172);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 17px;
+}
+.chat_box_head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.messages_icon{
+    display: flex;
+    flex-direction: row;
+}
+.messages_icon>img{
+    padding: 8px;
+    border-radius: 50%;
+}
+.messages_icon>img:hover{
+    background-color: rgba(241, 241, 241, 0.699);
+}
+.chat_profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    padding: 12px;
+}
+.chat_profile:hover{
+    background-color: rgb(241, 241, 241);
+}
