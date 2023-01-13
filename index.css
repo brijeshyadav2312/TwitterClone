@@ -2,6 +2,10 @@ body{
     margin: 0px;
     padding: 0px;
 }
+.main-container{
+    display: flex;
+    justify-content: space-between;
+}
 .nav-section{
     position: fixed;
     float: left;
